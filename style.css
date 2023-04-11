@@ -48,9 +48,7 @@ h1 {
     color: #168da6;
 }
 
-
-
-.project-scroll {
+.projectScroll {
     margin-top: 400px;
     background-image: url("media/Screen Shot 2023-04-04 at 12.21.42 AM.png");
     background-size: cover;
@@ -58,9 +56,10 @@ h1 {
     display: flex;
     justify-content: left;
     align-items: center;
+    background-attachment: fixed;
 }
 
-.project-scroll--bd {
+.projectScroll--bd {
     background-image: url(media/Weightloss-print.png);
 }
 
